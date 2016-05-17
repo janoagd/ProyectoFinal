@@ -23,29 +23,31 @@
     <backgrounds name="puzzle1">
       <background>background\bgPuzzle1</background>
     </backgrounds>
+    <background>background\background1</background>
+    <background>background\pared</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
     <scripts name="puzzle1">
-      <script>scripts\objPiezaLeftPressed.gml</script>
+      <script>scripts\scrPiezaStep.gml</script>
     </scripts>
   </scripts>
   <objects name="objects">
     <objects name="puzzle1">
-      <object>objects\objPieza4</object>
-      <object>objects\objPieza7</object>
       <object>objects\objCollisionInv</object>
-      <object>objects\objMouseInv</object>
       <object>objects\objPiezaInmovil</object>
-      <object>objects\objPieza8</object>
-      <object>objects\objPieza6</object>
+      <object>objects\objPieza1</object>
+      <object>objects\objPieza4</object>
       <object>objects\objPieza5</object>
+      <object>objects\objPieza6</object>
+      <object>objects\objPieza7</object>
+      <object>objects\objPieza8</object>
       <object>objects\objPieza3</object>
       <object>objects\objPieza2</object>
-      <object>objects\objPieza1</object>
     </objects>
   </objects>
   <rooms name="rooms">
+    <room>rooms\room1</room>
     <room>rooms\Puzzle1</room>
   </rooms>
   <help>

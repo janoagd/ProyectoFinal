@@ -52,21 +52,20 @@
   </views>
   <instances>
     <instance objName="objPieza1" x="340" y="450" name="inst_B3987A9F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objPieza2" x="340" y="250" name="inst_39C3E188" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objPieza7" x="440" y="250" name="inst_31454624" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objPieza6" x="640" y="250" name="inst_F16D3F95" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objPieza5" x="540" y="150" name="inst_A0FE1866" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objPieza4" x="340" y="350" name="inst_D22F13F6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objPieza8" x="640" y="450" name="inst_F429E5AD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objPieza3" x="440" y="450" name="inst_EADE64AE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objPiezaInmovil" x="440" y="550" name="inst_570ADD61" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objPiezaInmovil" x="540" y="350" name="inst_806AEEF7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objPiezaInmovil" x="240" y="250" name="inst_FAEA21C8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objPiezaInmovil" x="490" y="600" name="inst_570ADD61" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objPiezaInmovil" x="590" y="400" name="inst_806AEEF7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objPiezaInmovil" x="290" y="300" name="inst_FAEA21C8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objCollisionInv" x="220" y="130" name="inst_8CEE25E5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objCollisionInv" x="220" y="670" name="inst_65FAE5A5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="90"/>
     <instance objName="objCollisionInv" x="740" y="670" name="inst_20EF5309" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="90"/>
     <instance objName="objCollisionInv" x="220" y="650" name="inst_4D47A44E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objMouseInv" x="210" y="100" name="inst_3AC31B37" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objPieza4" x="440" y="400" name="inst_FAC06169" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objPieza8" x="640" y="550" name="inst_DF544D03" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objPieza3" x="490" y="500" name="inst_04BF3112" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objPieza5" x="540" y="200" name="inst_FA4D0991" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objPieza2" x="340" y="250" name="inst_4400EBBC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objPieza6" x="690" y="300" name="inst_E4B3204B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objPieza7" x="440" y="250" name="inst_E187B041" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bgPuzzle1" x="220" y="130" w="540" h="540" xo="0" yo="0" id="10000005" name="inst_EE2AB955" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
