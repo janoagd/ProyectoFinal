@@ -7,6 +7,7 @@
   <sounds name="sound"/>
   <sprites name="sprites">
     <sprites name="puzzle1">
+      <sprite>sprites\sprCerradura</sprite>
       <sprite>sprites\sprPieza1</sprite>
       <sprite>sprites\sprCollision</sprite>
       <sprite>sprites\sprPieza7</sprite>
@@ -44,11 +45,12 @@
       <object>objects\objPieza8</object>
       <object>objects\objPieza3</object>
       <object>objects\objPieza2</object>
+      <object>objects\objCerradura</object>
     </objects>
   </objects>
   <rooms name="rooms">
-    <room>rooms\room1</room>
     <room>rooms\Puzzle1</room>
+    <room>rooms\room1</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
