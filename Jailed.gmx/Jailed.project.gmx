@@ -19,6 +19,29 @@
       <sprite>sprites\sprPieza8</sprite>
       <sprite>sprites\sprPieza2</sprite>
     </sprites>
+    <sprites name="laberinto">
+      <sprite>sprites\sprite13</sprite>
+      <sprite>sprites\sprLaberinto</sprite>
+      <sprite>sprites\sprLaberintoWall</sprite>
+    </sprites>
+    <sprites name="Poli">
+      <sprites name="poliGolpe">
+        <sprite>sprites\sprPoliGolpeWalk</sprite>
+        <sprite>sprites\sprPoliGolpe</sprite>
+        <sprite>sprites\sprPoliGolpeAtaque</sprite>
+      </sprites>
+      <sprites name="poliPistola">
+        <sprite>sprites\sprPoliPistola</sprite>
+        <sprite>sprites\sprPoliPistolaAtaque</sprite>
+        <sprite>sprites\sprPoliPistolaWalk</sprite>
+      </sprites>
+      <sprites name="poliPorra">
+        <sprite>sprites\sprPoliPorra</sprite>
+        <sprite>sprites\sprPoliPorraAtaque</sprite>
+        <sprite>sprites\sprPoliPorraWalk</sprite>
+      </sprites>
+    </sprites>
+    <sprite>sprites\sprPlayer</sprite>
   </sprites>
   <backgrounds name="background">
     <backgrounds name="puzzle1">
@@ -47,8 +70,12 @@
       <object>objects\objPieza2</object>
       <object>objects\objCerradura</object>
     </objects>
+    <object>objects\objLaberintoWall</object>
+    <object>objects\objLaberinto</object>
+    <object>objects\object13</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\puzzle2</room>
     <room>rooms\Puzzle1</room>
     <room>rooms\room1</room>
   </rooms>
