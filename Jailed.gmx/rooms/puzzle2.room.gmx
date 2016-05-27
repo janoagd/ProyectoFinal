@@ -92,7 +92,6 @@
     <instance objName="objLaberinto" x="352" y="656" name="inst_6942E03D" locked="0" code="" scaleX="8" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objLaberintoWall" x="352" y="640" name="inst_D0C6E445" locked="0" code="" scaleX="10" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objLaberintoWall" x="608" y="656" name="inst_30D8E27D" locked="0" code="" scaleX="-7" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objLaberintoWall" x="368" y="752" name="inst_41257CC2" locked="0" code="" scaleX="7" scaleY="-5" colour="4294967295" rotation="0"/>
     <instance objName="objLaberintoWall" x="496" y="736" name="inst_79EC69CA" locked="0" code="" scaleX="1" scaleY="-4" colour="4294967295" rotation="0"/>
     <instance objName="objLaberintoWall" x="528" y="752" name="inst_CD900110" locked="0" code="" scaleX="1" scaleY="-3" colour="4294967295" rotation="0"/>
     <instance objName="objLaberintoWall" x="528" y="688" name="inst_F62F7DBB" locked="0" code="" scaleX="7" scaleY="1" colour="4294967295" rotation="0"/>
@@ -133,7 +132,7 @@
     <instance objName="objLaberinto" x="512" y="688" name="inst_926BA24F" locked="0" code="" scaleX="1" scaleY="4" colour="4294967295" rotation="0"/>
     <instance objName="objLaberinto" x="496" y="736" name="inst_3B910D75" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="object13" x="16" y="752" name="inst_A5520975" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objLaberintoWall" x="32" y="32" name="inst_321CF722" locked="0" code="" scaleX="1" scaleY="31" colour="4294967295" rotation="0"/>
+    <instance objName="objLaberintoWall" x="32" y="64" name="inst_321CF722" locked="0" code="" scaleX="1" scaleY="18" colour="4294967295" rotation="0"/>
     <instance objName="objLaberintoWall" x="64" y="32" name="inst_1C97FB03" locked="0" code="" scaleX="29" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objLaberintoWall" x="64" y="48" name="inst_CB726C63" locked="0" code="" scaleX="1" scaleY="13" colour="4294967295" rotation="0"/>
     <instance objName="objLaberintoWall" x="528" y="32" name="inst_441EADD1" locked="0" code="" scaleX="1" scaleY="5" colour="4294967295" rotation="0"/>
@@ -155,7 +154,7 @@
     <instance objName="objLaberintoWall" x="880" y="128" name="inst_E7F03B5C" locked="0" code="" scaleX="1" scaleY="2" colour="4294967295" rotation="0"/>
     <instance objName="objLaberintoWall" x="992" y="128" name="inst_B87D2C5F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objLaberintoWall" x="976" y="128" name="inst_ABA0DE31" locked="0" code="" scaleX="1" scaleY="4" colour="4294967295" rotation="0"/>
-    <instance objName="objLaberintoWall" x="976" y="208" name="inst_7DEA52DF" locked="0" code="" scaleX="1" scaleY="6" colour="4294967295" rotation="0"/>
+    <instance objName="objLaberintoWall" x="976" y="208" name="inst_7DEA52DF" locked="0" code="" scaleX="1" scaleY="2" colour="4294967295" rotation="0"/>
     <instance objName="objLaberintoWall" x="944" y="240" name="inst_12250C3C" locked="0" code="" scaleX="2" scaleY="2" colour="4294967295" rotation="0"/>
     <instance objName="objLaberintoWall" x="832" y="288" name="inst_6490115D" locked="0" code="" scaleX="9" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objLaberintoWall" x="784" y="288" name="inst_847D5732" locked="0" code="" scaleX="2" scaleY="1" colour="4294967295" rotation="0"/>
@@ -195,7 +194,7 @@
     <instance objName="objLaberintoWall" x="672" y="128" name="inst_CE911A4E" locked="0" code="" scaleX="6" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objLaberintoWall" x="688" y="224" name="inst_64D9FF86" locked="0" code="" scaleX="1" scaleY="-4" colour="4294967295" rotation="0"/>
     <instance objName="objLaberintoWall" x="752" y="144" name="inst_AC7ABD25" locked="0" code="" scaleX="1" scaleY="6" colour="4294967295" rotation="0"/>
-    <instance objName="objLaberintoWall" x="720" y="144" name="inst_F3B45A3D" locked="0" code="" scaleX="1" scaleY="5" colour="4294967295" rotation="0"/>
+    <instance objName="objLaberintoWall" x="720" y="176" name="inst_F3B45A3D" locked="0" code="" scaleX="1" scaleY="3" colour="4294967295" rotation="0"/>
     <instance objName="objLaberintoWall" x="96" y="64" name="inst_D28BA032" locked="0" code="" scaleX="25" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objLaberintoWall" x="96" y="80" name="inst_9346E74B" locked="0" code="" scaleX="1" scaleY="9" colour="4294967295" rotation="0"/>
     <instance objName="objLaberinto" x="80" y="48" name="inst_81543E59" locked="0" code="" scaleX="1" scaleY="12" colour="4294967295" rotation="0"/>
@@ -221,7 +220,7 @@
     <instance objName="objLaberintoWall" x="464" y="224" name="inst_7B4BEA25" locked="0" code="" scaleX="1" scaleY="18" colour="4294967295" rotation="0"/>
     <instance objName="objLaberintoWall" x="368" y="336" name="inst_FAB26108" locked="0" code="" scaleX="1" scaleY="16" colour="4294967295" rotation="0"/>
     <instance objName="objLaberintoWall" x="432" y="288" name="inst_B85DFBFD" locked="0" code="" scaleX="1" scaleY="17" colour="4294967295" rotation="0"/>
-    <instance objName="objLaberintoWall" x="400" y="304" name="inst_9B63BCDD" locked="0" code="" scaleX="1" scaleY="17" colour="4294967295" rotation="0"/>
+    <instance objName="objLaberintoWall" x="400" y="304" name="inst_9B63BCDD" locked="0" code="" scaleX="1" scaleY="7" colour="4294967295" rotation="0"/>
     <instance objName="objLaberintoWall" x="352" y="608" name="inst_80563F14" locked="0" code="" scaleX="12" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objLaberintoWall" x="80" y="240" name="inst_7E26DC89" locked="0" code="" scaleX="23" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objLaberintoWall" x="432" y="256" name="inst_275BDE9F" locked="0" code="" scaleX="1" scaleY="2" colour="4294967295" rotation="0"/>
@@ -253,7 +252,7 @@
     <instance objName="objLaberintoWall" x="944" y="448" name="inst_50EAEEEC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objLaberintoWall" x="928" y="448" name="inst_177010EA" locked="0" code="" scaleX="1" scaleY="12" colour="4294967295" rotation="0"/>
     <instance objName="objLaberintoWall" x="864" y="656" name="inst_38AEE404" locked="0" code="" scaleX="1" scaleY="5" colour="4294967295" rotation="0"/>
-    <instance objName="objLaberintoWall" x="880" y="720" name="inst_CA64C5C8" locked="0" code="" scaleX="8" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objLaberintoWall" x="880" y="720" name="inst_CA64C5C8" locked="0" code="" scaleX="6" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objLaberintoWall" x="880" y="688" name="inst_B642E634" locked="0" code="" scaleX="7" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objLaberintoWall" x="976" y="672" name="inst_11E3D5E2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objLaberintoWall" x="896" y="656" name="inst_79A08CF8" locked="0" code="" scaleX="6" scaleY="1" colour="4294967295" rotation="0"/>
@@ -291,13 +290,11 @@
     <instance objName="objLaberintoWall" x="592" y="432" name="inst_0ADB650A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objLaberintoWall" x="544" y="416" name="inst_5991DD53" locked="0" code="" scaleX="2" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objLaberintoWall" x="720" y="448" name="inst_B98F4AE2" locked="0" code="" scaleX="1" scaleY="2" colour="4294967295" rotation="0"/>
-    <instance objName="objLaberintoWall" x="736" y="448" name="inst_46F9B3C8" locked="0" code="" scaleX="5" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objLaberintoWall" x="736" y="448" name="inst_46F9B3C8" locked="0" code="" scaleX="4" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objLaberintoWall" x="512" y="304" name="inst_A9A79A0F" locked="0" code="" scaleX="2" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objLaberintoWall" x="528" y="336" name="inst_F7B13D0D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objLaberintoWall" x="560" y="304" name="inst_CF8251EF" locked="0" code="" scaleX="1" scaleY="3" colour="4294967295" rotation="0"/>
     <instance objName="objLaberintoWall" x="576" y="320" name="inst_353CAA63" locked="0" code="" scaleX="3" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objLaberintoWall" x="640" y="304" name="inst_19324BE3" locked="0" code="" scaleX="1" scaleY="2" colour="4294967295" rotation="0"/>
-    <instance objName="objLaberintoWall" x="656" y="320" name="inst_A7341D88" locked="0" code="" scaleX="2" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objLaberintoWall" x="704" y="336" name="inst_012E20FF" locked="0" code="" scaleX="2" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objLaberintoWall" x="592" y="288" name="inst_970D4983" locked="0" code="" scaleX="2" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objLaberintoWall" x="496" y="384" name="inst_B3651452" locked="0" code="" scaleX="1" scaleY="8" colour="4294967295" rotation="0"/>
@@ -308,10 +305,58 @@
     <instance objName="objLaberintoWall" x="160" y="144" name="inst_A13EE9E3" locked="0" code="" scaleX="18" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objLaberintoWall" x="176" y="112" name="inst_E6AF3F36" locked="0" code="" scaleX="2" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objLaberintoWall" x="224" y="128" name="inst_0C6B2BA7" locked="0" code="" scaleX="2" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objLaberintoWall" x="272" y="112" name="inst_5D742FBA" locked="0" code="" scaleX="2" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objLaberintoWall" x="320" y="128" name="inst_896ED7B9" locked="0" code="" scaleX="2" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objLaberintoWall" x="368" y="112" name="inst_D32BBAAF" locked="0" code="" scaleX="2" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objLaberintoWall" x="416" y="128" name="inst_FB3C16EB" locked="0" code="" scaleX="2" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objLaberintoWall" x="32" y="368" name="inst_8C797953" locked="0" code="" scaleX="1" scaleY="10" colour="4294967295" rotation="0"/>
+    <instance objName="objLaberintoWall" x="64" y="304" name="inst_588BBDE3" locked="0" code="" scaleX="1" scaleY="13" colour="4294967295" rotation="0"/>
+    <instance objName="objLaberintoWall" x="304" y="288" name="inst_6D3488A5" locked="0" code="" scaleX="1" scaleY="12" colour="4294967295" rotation="0"/>
+    <instance objName="objLaberintoWall" x="288" y="480" name="inst_9EAE4598" locked="0" code="" scaleX="2" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objLaberintoWall" x="256" y="560" name="inst_9F864152" locked="0" code="" scaleX="3" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objLaberintoWall" x="304" y="512" name="inst_E2342AEC" locked="0" code="" scaleX="1" scaleY="3" colour="4294967295" rotation="0"/>
+    <instance objName="objLaberintoWall" x="272" y="480" name="inst_7EDF8CF9" locked="0" code="" scaleX="1" scaleY="4" colour="4294967295" rotation="0"/>
+    <instance objName="objLaberintoWall" x="240" y="496" name="inst_F26C4B89" locked="0" code="" scaleX="1" scaleY="3" colour="4294967295" rotation="0"/>
+    <instance objName="objLaberintoWall" x="80" y="496" name="inst_BE602E72" locked="0" code="" scaleX="10" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objLaberintoWall" x="240" y="448" name="inst_779C1B9E" locked="0" code="" scaleX="1" scaleY="3" colour="4294967295" rotation="0"/>
+    <instance objName="objLaberintoWall" x="256" y="448" name="inst_6AB356E7" locked="0" code="" scaleX="2" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objLaberintoWall" x="272" y="400" name="inst_39052E5A" locked="0" code="" scaleX="1" scaleY="3" colour="4294967295" rotation="0"/>
+    <instance objName="objLaberintoWall" x="272" y="288" name="inst_FBB68285" locked="0" code="" scaleX="1" scaleY="6" colour="4294967295" rotation="0"/>
+    <instance objName="objLaberintoWall" x="240" y="352" name="inst_275E1DB8" locked="0" code="" scaleX="1" scaleY="5" colour="4294967295" rotation="0"/>
+    <instance objName="objLaberintoWall" x="240" y="288" name="inst_2694D109" locked="0" code="" scaleX="1" scaleY="3" colour="4294967295" rotation="0"/>
+    <instance objName="objLaberintoWall" x="176" y="352" name="inst_CE1EAFFC" locked="0" code="" scaleX="4" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objLaberintoWall" x="176" y="288" name="inst_BB2BA9DF" locked="0" code="" scaleX="1" scaleY="4" colour="4294967295" rotation="0"/>
+    <instance objName="objLaberintoWall" x="176" y="448" name="inst_05B4AA48" locked="0" code="" scaleX="4" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objLaberintoWall" x="144" y="448" name="inst_234D760A" locked="0" code="" scaleX="1" scaleY="3" colour="4294967295" rotation="0"/>
+    <instance objName="objLaberintoWall" x="208" y="384" name="inst_9C48A701" locked="0" code="" scaleX="1" scaleY="4" colour="4294967295" rotation="0"/>
+    <instance objName="objLaberintoWall" x="176" y="368" name="inst_61487FAA" locked="0" code="" scaleX="1" scaleY="4" colour="4294967295" rotation="0"/>
+    <instance objName="objLaberintoWall" x="80" y="416" name="inst_D7611300" locked="0" code="" scaleX="5" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objLaberintoWall" x="112" y="432" name="inst_263969D9" locked="0" code="" scaleX="1" scaleY="3" colour="4294967295" rotation="0"/>
+    <instance objName="objLaberintoWall" x="80" y="448" name="inst_35AF4AC7" locked="0" code="" scaleX="1" scaleY="3" colour="4294967295" rotation="0"/>
+    <instance objName="objLaberintoWall" x="144" y="304" name="inst_6C795F7C" locked="0" code="" scaleX="1" scaleY="7" colour="4294967295" rotation="0"/>
+    <instance objName="objLaberintoWall" x="112" y="288" name="inst_317CD5CB" locked="0" code="" scaleX="1" scaleY="7" colour="4294967295" rotation="0"/>
+    <instance objName="objLaberintoWall" x="80" y="336" name="inst_233EB2C7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objLaberintoWall" x="96" y="368" name="inst_5E4B7FCE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objLaberintoWall" x="80" y="400" name="inst_9927105A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objLaberintoWall" x="96" y="304" name="inst_755CAB9D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objPowerUp" x="640" y="304" name="inst_78EFDE6A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objPowerUp" x="208" y="288" name="inst_E01E3500" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objPowerUp" x="208" y="464" name="inst_F82EE2D4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objPowerUp" x="272" y="112" name="inst_AC3BC777" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objPowerUp" x="432" y="720" name="inst_6F175600" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objLaberintoWall" x="368" y="672" name="inst_053872F8" locked="0" code="" scaleX="1" scaleY="5" colour="4294967295" rotation="0"/>
+    <instance objName="objLaberintoWall" x="384" y="672" name="inst_5D9F2E6F" locked="0" code="" scaleX="3" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objLaberintoWall" x="448" y="672" name="inst_C1FCCCF3" locked="0" code="" scaleX="2" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objLaberintoWall" x="464" y="688" name="inst_3A14D448" locked="0" code="" scaleX="1" scaleY="4" colour="4294967295" rotation="0"/>
+    <instance objName="objLaberintoWall" x="400" y="704" name="inst_8C2A8D8E" locked="0" code="" scaleX="4" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objLaberintoWall" x="400" y="720" name="inst_725ACEDE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objPowerUp" x="800" y="448" name="inst_7ABC7C24" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objPowerUp" x="976" y="720" name="inst_71A60DE9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objPowerUp" x="976" y="240" name="inst_C70C002D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objLaberintoWall" x="976" y="272" name="inst_B64EFCD2" locked="0" code="" scaleX="1" scaleY="2" colour="4294967295" rotation="0"/>
+    <instance objName="objLaberintoWall" x="400" y="448" name="inst_B4CA37DE" locked="0" code="" scaleX="1" scaleY="8" colour="4294967295" rotation="0"/>
+    <instance objName="objPowerUp" x="384" y="416" name="inst_05936B33" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objPowerUp" x="704" y="144" name="inst_D7124C2B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objPowerUp" x="16" y="16" name="inst_665E3DB2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

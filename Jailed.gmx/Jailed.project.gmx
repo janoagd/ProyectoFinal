@@ -42,6 +42,7 @@
       </sprites>
     </sprites>
     <sprite>sprites\sprPlayer</sprite>
+    <sprite>sprites\sprPowerUp</sprite>
   </sprites>
   <backgrounds name="background">
     <backgrounds name="puzzle1">
@@ -73,6 +74,7 @@
     <object>objects\objLaberintoWall</object>
     <object>objects\objLaberinto</object>
     <object>objects\object13</object>
+    <object>objects\objPowerUp</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\puzzle2</room>
