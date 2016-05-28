@@ -23,6 +23,7 @@
       <sprite>sprites\sprite13</sprite>
       <sprite>sprites\sprLaberinto</sprite>
       <sprite>sprites\sprLaberintoWall</sprite>
+      <sprite>sprites\sprPowerUp</sprite>
     </sprites>
     <sprites name="Poli">
       <sprites name="poliGolpe">
@@ -42,7 +43,6 @@
       </sprites>
     </sprites>
     <sprite>sprites\sprPlayer</sprite>
-    <sprite>sprites\sprPowerUp</sprite>
   </sprites>
   <backgrounds name="background">
     <backgrounds name="puzzle1">
@@ -50,6 +50,7 @@
     </backgrounds>
     <background>background\background1</background>
     <background>background\pared</background>
+    <background>background\background3</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -71,16 +72,24 @@
       <object>objects\objPieza2</object>
       <object>objects\objCerradura</object>
     </objects>
-    <object>objects\objLaberintoWall</object>
-    <object>objects\objLaberinto</object>
-    <object>objects\object13</object>
-    <object>objects\objPowerUp</object>
+    <objects name="puzle2">
+      <object>objects\objLaberintoWall</object>
+      <object>objects\objLaberinto</object>
+      <object>objects\object13</object>
+      <object>objects\objPowerUp</object>
+    </objects>
+    <object>objects\objPlayer</object>
+    <objects name="Polis">
+      <object>objects\objPoli01</object>
+      <object>objects\objPoli02</object>
+      <object>objects\objPoli03</object>
+    </objects>
   </objects>
   <rooms name="rooms">
-    <room>rooms\puzzle2</room>
-    <room>rooms\Puzzle1</room>
     <room>rooms\room1</room>
+    <room>rooms\Puzzle1</room>
     <room>rooms\room3</room>
+    <room>rooms\puzzle2</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
