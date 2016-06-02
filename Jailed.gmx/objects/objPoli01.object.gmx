@@ -192,7 +192,7 @@ if (distance_to_object(objPlayer)&lt;2 &amp;&amp; canHit == true)
         image_xscale = other.image_xscale;
     }
     canHit = false
-    alarm_set[0] = 30;
+    alarm[0] = 30;
 }  
 
 
