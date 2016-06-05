@@ -43,7 +43,14 @@
         <sprite>sprites\sprPoliPorraWalk</sprite>
       </sprites>
     </sprites>
-    <sprite>sprites\sprPlayer</sprite>
+    <sprites name="Player">
+      <sprite>sprites\sprPlayerStandLeft</sprite>
+      <sprite>sprites\sprPlayerStandRight</sprite>
+      <sprite>sprites\sprPlayerRunRight</sprite>
+      <sprite>sprites\sprPlayerRunLeft</sprite>
+      <sprite>sprites\sprPlayerJumpRight</sprite>
+      <sprite>sprites\sprPlayerJumpLeft</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <backgrounds name="puzzle1">
