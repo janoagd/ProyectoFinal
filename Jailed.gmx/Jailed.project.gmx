@@ -51,6 +51,7 @@
       <sprite>sprites\sprPlayerJumpRight</sprite>
       <sprite>sprites\sprPlayerJumpLeft</sprite>
     </sprites>
+    <sprite>sprites\sprBullet</sprite>
   </sprites>
   <backgrounds name="background">
     <backgrounds name="puzzle1">
@@ -93,6 +94,7 @@
       <object>objects\objPoli02</object>
       <object>objects\objPoli03</object>
     </objects>
+    <object>objects\objBullet</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room1</room>

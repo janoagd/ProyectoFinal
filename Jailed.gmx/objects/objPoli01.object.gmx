@@ -152,50 +152,65 @@
             <string>
 
 //Sprites changes depending on the performed accion
-if (hspeed != 0) 
+
+
+
+if (instance_exists(objPlayer))
 {
-    sprite_index = sprPoliGolpeWalk;
-    image_xscale = sign(hspeed);
+    if (hspeed != 0) 
+    {
+        sprite_index = sprPoliGolpeWalk;
+        image_xscale = sign(hspeed);
+    }
+    else
+    {
+        sprite_index = sprPoliGolpe
+    }
+    
+    
+    //If Player is near move towards her
+    
+
+    
+        if(distance_to_object (objPlayer) &lt; 350 &amp;&amp; objPlayer.x &lt; x+sprite_width/2)
+        {
+            targetSpeedX -= maxSpeedX;
+        }
+        
+        if(distance_to_object (objPlayer) &lt; 350 &amp;&amp; objPlayer.x &gt; x-sprite_width/2)
+        {
+            targetSpeedX += maxSpeedX;
+        }
+        
+        offsetSpeed = targetSpeedX - hspeed;
+        speedInc = clamp(offsetSpeed, -acceleration, acceleration);
+        hspeed += speedInc;
+        
+        if (instance_exists(objPlayer))
+        {    
+            if (distance_to_object(objPlayer)&lt;2 &amp;&amp; canHit == true &amp;&amp; sprite_index != sprPoliGolpeAtaque)
+            {    
+                // start the standing punch animation
+                sprite_index = sprPoliGolpeAtaque;
+                image_index = 0;
+                
+                // create the collision object
+                AtaqueColObj = instance_create(x, y, objPoliGolpeAtaqueCol);
+                with (AtaqueColObj)
+                {
+                    image_xscale = other.image_xscale;
+                }
+                canHit = false
+                alarm[0] = 30;
+                
+            }
+        }  
 }
 else
 {
+    hspeed=0
     sprite_index = sprPoliGolpe
 }
-
-
-//If Player is near move towards her
-
-if(distance_to_object (objPlayer) &lt; 350 &amp;&amp; objPlayer.x &lt; x+sprite_width/2)
-{
-    targetSpeedX -= maxSpeedX;
-}
-
-if(distance_to_object (objPlayer) &lt; 350 &amp;&amp; objPlayer.x &gt; x-sprite_width/2)
-{
-    targetSpeedX += maxSpeedX;
-}
-
-offsetSpeed = targetSpeedX - hspeed;
-speedInc = clamp(offsetSpeed, -acceleration, acceleration);
-hspeed += speedInc;
-
-if (distance_to_object(objPlayer)&lt;2 &amp;&amp; canHit == true)
-{    
-    // start the standing punch animation
-    sprite_index = sprPoliGolpeAtaque;
-    image_index = 0;
-    
-    // create the collision object
-    AtaqueColObj = instance_create(x, y, objPoliGolpeAtaqueCol);
-    with (AtaqueColObj)
-    {
-        image_xscale = other.image_xscale;
-    }
-    canHit = false
-    alarm[0] = 30;
-}  
-
-
 
 
 
