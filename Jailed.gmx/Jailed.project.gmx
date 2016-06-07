@@ -40,6 +40,7 @@
       <sprites name="poliPorra">
         <sprite>sprites\sprPoliPorra</sprite>
         <sprite>sprites\sprPoliPorraAtaque</sprite>
+        <sprite>sprites\sprPoliPorraAtaqueCol</sprite>
         <sprite>sprites\sprPoliPorraWalk</sprite>
       </sprites>
     </sprites>
@@ -52,6 +53,7 @@
       <sprite>sprites\sprPlayerJumpLeft</sprite>
     </sprites>
     <sprite>sprites\sprBullet</sprite>
+    <sprite>sprites\sprAmmo</sprite>
   </sprites>
   <backgrounds name="background">
     <backgrounds name="puzzle1">
@@ -93,8 +95,10 @@
       <object>objects\objPoliGolpeAtaqueCol</object>
       <object>objects\objPoli02</object>
       <object>objects\objPoli03</object>
+      <object>objects\objPoliPorraAtaqueCol</object>
     </objects>
     <object>objects\objBullet</object>
+    <object>objects\objAmmo</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room1</room>

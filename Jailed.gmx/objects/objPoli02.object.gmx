@@ -58,6 +58,30 @@
         </arguments>
       </action>
     </event>
+    <event eventtype="1" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>//Drop ammo when killed.
+ammo = instance_create(x, y+40, objAmmo)
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
     <event eventtype="2" enumb="0">
       <action>
         <libid>1</libid>
@@ -101,34 +125,35 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>//Face the right way
+            <string>//Look for the player
 
 image_xscale = sign(objPlayer.x-x)
-
-
-//If Player is near shoot her
+        
     
-    if (distance_to_object (objPlayer) &lt; range &amp;&amp; canShoot == true)
-    {
-        sprite_index = sprPoliPistolaAtaque;
-        image_index = 0;
+    //If the player is near shoot her
         
-        
-        if (objPlayer.x&lt;x)
+        if (distance_to_object (objPlayer) &lt; range &amp;&amp; canShoot == true)
         {
-            bullet = instance_create(((x-sprite_width/2)+3),(y-5), objBullet)
+            sprite_index = sprPoliPistolaAtaque;
+            image_index = 0;
+            
+            
+            if (objPlayer.x&lt;x)
+            {
+                bullet = instance_create(((x+sprite_width/2)),(y-8), objBullet)
+            }
+            else
+            {
+                bullet = instance_create(((x+sprite_width/2)),(y-8), objBullet);
+            }
+            //3 and 8 are tweeks so the bullet is created just at the tip of the gun.
+            canShoot = false;
+            alarm[0] = 30;
+            if (sprite_index == sprPoliPistolaAtaque &amp;&amp; image_index &gt; 5)
+            {
+                sprite_index = sprPoliPistola;
+            }
         }
-        else
-        {
-            bullet = instance_create(((x+sprite_width/2)+3),(y-5), objBullet);
-        }
-        canShoot = false;
-        alarm[0] = 30;
-        if (sprite_index == sprPoliPistolaAtaque &amp;&amp; image_index &gt; 5)
-        {
-            sprite_index = sprPoliPistola;
-        }
-    }
 
 </string>
           </argument>
