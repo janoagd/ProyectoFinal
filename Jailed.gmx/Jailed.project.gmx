@@ -21,9 +21,10 @@
     </sprites>
     <sprites name="laberinto">
       <sprite>sprites\sprite13</sprite>
-      <sprite>sprites\sprLaberinto</sprite>
-      <sprite>sprites\sprLaberintoWall</sprite>
-      <sprite>sprites\sprPowerUp</sprite>
+      <sprite>sprites\sprLaberintoWallV</sprite>
+      <sprite>sprites\lsprLaberintoWallH</sprite>
+      <sprite>sprites\sprLaberintoWallCorner</sprite>
+      <sprite>sprites\sprNextRoom</sprite>
     </sprites>
     <sprites name="Poli">
       <sprites name="poliGolpe">
@@ -54,14 +55,24 @@
     </sprites>
     <sprite>sprites\sprBullet</sprite>
     <sprite>sprites\sprAmmo</sprite>
+    <sprite>sprites\sprRejasPuerta</sprite>
+    <sprite>sprites\sprRejas</sprite>
+    <sprite>sprites\sprCelda</sprite>
+    <sprite>sprites\sprCollisionStairsInv</sprite>
+    <sprite>sprites\sprLuz</sprite>
   </sprites>
   <backgrounds name="background">
     <backgrounds name="puzzle1">
       <background>background\bgPuzzle1</background>
     </backgrounds>
-    <background>background\background1</background>
-    <background>background\pared</background>
-    <background>background\background3</background>
+    <background>background\bgPuzle2</background>
+    <backgrounds name="tiles">
+      <background>background\roca</background>
+      <background>background\rocaOscura</background>
+      <background>background\suelo1</background>
+      <background>background\suelo2</background>
+      <background>background\pared</background>
+    </backgrounds>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -83,11 +94,12 @@
       <object>objects\objPieza2</object>
       <object>objects\objCerradura</object>
     </objects>
-    <objects name="puzle2">
-      <object>objects\objLaberintoWall</object>
-      <object>objects\objLaberinto</object>
+    <objects name="puzzle2">
+      <object>objects\objLaberintoWallV</object>
+      <object>objects\objLaberintoWallCorner</object>
       <object>objects\object13</object>
-      <object>objects\objPowerUp</object>
+      <object>objects\objLaberintoWallH</object>
+      <object>objects\objNextRoom</object>
     </objects>
     <object>objects\objPlayer</object>
     <objects name="Polis">
@@ -99,11 +111,17 @@
     </objects>
     <object>objects\objBullet</object>
     <object>objects\objAmmo</object>
+    <object>objects\objRejasPuerta</object>
+    <object>objects\objRejas</object>
+    <object>objects\objCelda</object>
+    <object>objects\objStairsCollision</object>
+    <object>objects\objLuz</object>
+    <object>objects\objLighting</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room1</room>
     <room>rooms\Puzzle1</room>
-    <room>rooms\room3</room>
+    <room>rooms\room2</room>
     <room>rooms\puzzle2</room>
   </rooms>
   <help>
