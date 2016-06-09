@@ -247,6 +247,54 @@ else
         </arguments>
       </action>
     </event>
+    <event eventtype="4" ename="objBullet2">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>// grab the speed as we have it before colliding
+oldSpeed = hspeed;
+
+// check if we're going left or right
+speedSign = sign(oldSpeed);
+absSpeed = abs(oldSpeed);
+
+// iterate over all the points until the next one
+foundPlace = false;
+xCollide = x;
+for (i = 0; i &lt; absSpeed &amp;&amp; !foundPlace; ++i)
+{
+    if (place_free(xCollide + speedSign, y))
+    {
+        xCollide += speedSign;
+    }
+    else
+    {
+        foundPlace = true;
+    }
+}
+
+// update the speed to be the distance to the collision point
+hspeed = xCollide - x;
+
+
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
     <event eventtype="4" ename="objPlayer">
       <action>
         <libid>1</libid>

@@ -46,8 +46,9 @@
       </sprites>
     </sprites>
     <sprites name="Player">
-      <sprite>sprites\sprPlayerStandLeft</sprite>
       <sprite>sprites\sprPlayerStandRight</sprite>
+      <sprite>sprites\sprPayerStandLeft</sprite>
+      <sprite>sprites\sprPlayerShoot</sprite>
       <sprite>sprites\sprPlayerRunRight</sprite>
       <sprite>sprites\sprPlayerRunLeft</sprite>
       <sprite>sprites\sprPlayerJumpRight</sprite>
@@ -111,6 +112,7 @@
       <object>objects\objPoliPorraAtaqueCol</object>
     </objects>
     <object>objects\objBullet</object>
+    <object>objects\objBullet2</object>
     <object>objects\objAmmo</object>
     <object>objects\objRejasPuerta</object>
     <object>objects\objRejas</object>
