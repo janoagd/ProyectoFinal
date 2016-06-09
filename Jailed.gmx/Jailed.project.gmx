@@ -60,6 +60,7 @@
     <sprite>sprites\sprCelda</sprite>
     <sprite>sprites\sprCollisionStairsInv</sprite>
     <sprite>sprites\sprLuz</sprite>
+    <sprite>sprites\sprCollisionInv</sprite>
   </sprites>
   <backgrounds name="background">
     <backgrounds name="puzzle1">
@@ -117,6 +118,8 @@
     <object>objects\objStairsCollision</object>
     <object>objects\objLuz</object>
     <object>objects\objLighting</object>
+    <object>objects\objCollisionH</object>
+    <object>objects\objCollisionV</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room1</room>
