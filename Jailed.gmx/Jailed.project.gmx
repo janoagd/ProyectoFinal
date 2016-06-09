@@ -47,7 +47,7 @@
     </sprites>
     <sprites name="Player">
       <sprite>sprites\sprPlayerStandRight</sprite>
-      <sprite>sprites\sprPayerStandLeft</sprite>
+      <sprite>sprites\sprPlayerStandLeft</sprite>
       <sprite>sprites\sprPlayerShoot</sprite>
       <sprite>sprites\sprPlayerRunRight</sprite>
       <sprite>sprites\sprPlayerRunLeft</sprite>

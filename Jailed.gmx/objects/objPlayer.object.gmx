@@ -104,28 +104,20 @@ if (currHealth &lt; 1)
           <argument>
             <kind>1</kind>
             <string>///Movimiento
-acceleration = 0.2;
 
 if (keyboard_check(vk_right)){
-targetVelX = 4
+    targetVelX = 8;
 }
 if (keyboard_check_released(vk_right)){
-targetVelX = 0
+    targetVelX = 0;
 }
 if (keyboard_check(vk_left)){
-targetVelX = -4
+    targetVelX = -8;
 }
 if (keyboard_check_released(vk_left)){
-targetVelX = 0
+    targetVelX = 0;
 }
 hspeed = targetVelX
-
-if (hspeed &gt;= 4 &amp;&amp; hspeed &lt;8){
-    hspeed += acceleration;
-}
-if (hspeed &lt;= -4 &amp;&amp; hspeed &gt;-8){
-    hspeed -= acceleration;
-}
 
 //collision
 if (place_meeting(x, y, objCollisionH)){
@@ -155,14 +147,19 @@ else{
           <argument>
             <kind>1</kind>
             <string>///cambiar sprites
-if (hspeed = 0){
-    sprite_index = sprPlayerStandRight;
-}
-else if (hspeed &lt;0){
+
+if (hspeed &lt;0){
     sprite_index = sprPlayerRunLeft;
 }
-else
+else if (hspeed &gt;0){
     sprite_index = sprPlayerRunRight;
+}
+if (hspeed = 0 &amp;&amp; sprite_index = sprPlayerRunLeft){
+    sprite_index=sprPlayerStandLeft;
+}
+else if(hspeed = 0 &amp;&amp; sprite_index = sprPlayerRunRight){
+    sprite_index=sprPlayerStandRight;
+}
 </string>
           </argument>
         </arguments>
