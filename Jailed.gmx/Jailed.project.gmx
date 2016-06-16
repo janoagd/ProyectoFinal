@@ -110,18 +110,22 @@
       <object>objects\objPoli02</object>
       <object>objects\objPoli03</object>
       <object>objects\objPoliPorraAtaqueCol</object>
+      <object>objects\objBullet</object>
     </objects>
-    <object>objects\objBullet</object>
     <object>objects\objBullet2</object>
     <object>objects\objAmmo</object>
-    <object>objects\objRejasPuerta</object>
-    <object>objects\objRejas</object>
-    <object>objects\objCelda</object>
-    <object>objects\objStairsCollision</object>
-    <object>objects\objLuz</object>
-    <object>objects\objLighting</object>
-    <object>objects\objCollisionH</object>
-    <object>objects\objCollisionV</object>
+    <objects name="pasillos">
+      <object>objects\objRejasPuerta</object>
+      <object>objects\objRejas</object>
+      <object>objects\objCelda</object>
+      <object>objects\objLuz</object>
+      <object>objects\objLighting</object>
+    </objects>
+    <objects name="collisions">
+      <object>objects\objCollisionV</object>
+      <object>objects\objStairsCollision</object>
+      <object>objects\objCollisionH</object>
+    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\room1</room>

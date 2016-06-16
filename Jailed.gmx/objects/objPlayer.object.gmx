@@ -27,9 +27,6 @@
             <kind>1</kind>
             <string>///variables
 currHealth = 100;
-acceleration = 6;
-targetVelX = 0;
-targetVelY = 0;
 canShoot = true;
 </string>
           </argument>
@@ -106,18 +103,23 @@ if (currHealth &lt; 1)
             <string>///Movimiento
 
 if (keyboard_check(vk_right)){
-    targetVelX = 8;
+    hspeed = 4;
+    while (hspeed &lt; 8){
+        hspeed += 0.2;
+    }
 }
 if (keyboard_check_released(vk_right)){
-    targetVelX = 0;
+    hspeed = 0;
 }
 if (keyboard_check(vk_left)){
-    targetVelX = -8;
+    hspeed = -4;
+    while (hspeed &gt; -8){
+        hspeed -= 0.2;
+    }
 }
 if (keyboard_check_released(vk_left)){
-    targetVelX = 0;
+    hspeed = 0;
 }
-hspeed = targetVelX
 
 //collision
 if (place_meeting(x, y, objCollisionH)){
