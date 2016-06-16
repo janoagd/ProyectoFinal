@@ -304,10 +304,7 @@ currHealth -= objPoliGolpeAtaqueCol.impactForce
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (canShoot = true){
-    sprite_index = sprPlayerShoot;
-    instance_create(x+20, y-56, objBullet2);
-}
+            <string>///disparo
 </string>
           </argument>
         </arguments>
