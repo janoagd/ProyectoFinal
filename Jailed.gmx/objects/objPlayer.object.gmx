@@ -305,6 +305,19 @@ currHealth -= objPoliGolpeAtaqueCol.impactForce
           <argument>
             <kind>1</kind>
             <string>///disparo
+if (canShoot = true){
+    if (objPlayer.sprite_index = sprPlayerStandRight || 
+    objPlayer.sprite_index = sprPlayerRunRight ||
+    objPlayer.sprite_index = sprPlayerJumpRight)
+    {
+        instance_create(x+33, y-56, objBullet2)
+    }
+    else {
+        instance_create(x-33, y-56, objBullet2)
+    }
+    canShoot = false;
+    alarm[0] = 8;
+}
 </string>
           </argument>
         </arguments>

@@ -99,7 +99,7 @@
     <objects name="puzzle2">
       <object>objects\objLaberintoWallV</object>
       <object>objects\objLaberintoWallCorner</object>
-      <object>objects\object13</object>
+      <object>objects\objPlayerLab</object>
       <object>objects\objLaberintoWallH</object>
       <object>objects\objNextRoom</object>
     </objects>
