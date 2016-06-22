@@ -83,6 +83,8 @@
     <instance objName="objCollisionH" x="0" y="640" name="inst_9F0D1172" locked="0" code="" scaleX="154" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objPoli02" x="2432" y="224" name="inst_B39EB376" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objPoli03" x="2880" y="224" name="inst_CA4A78D5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objHUD" x="96" y="64" name="inst_6CBB39B6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objPoli01" x="1280" y="224" name="inst_1E9FCD04" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="suelo1" x="64" y="256" w="64" h="64" xo="0" yo="0" id="10000268" name="inst_8F82319C" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

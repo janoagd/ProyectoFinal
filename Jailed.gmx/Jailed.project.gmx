@@ -31,7 +31,6 @@
         <sprite>sprites\sprPoliGolpeWalk</sprite>
         <sprite>sprites\sprPoliGolpe</sprite>
         <sprite>sprites\sprPoliGolpeAtaque</sprite>
-        <sprite>sprites\sprPoliGolpeAtaqueCol</sprite>
       </sprites>
       <sprites name="poliPistola">
         <sprite>sprites\sprPoliPistola</sprite>
@@ -41,7 +40,6 @@
       <sprites name="poliPorra">
         <sprite>sprites\sprPoliPorra</sprite>
         <sprite>sprites\sprPoliPorraAtaque</sprite>
-        <sprite>sprites\sprPoliPorraAtaqueCol</sprite>
         <sprite>sprites\sprPoliPorraWalk</sprite>
       </sprites>
     </sprites>
@@ -81,6 +79,11 @@
     <scripts name="puzzle1">
       <script>scripts\scrPiezaStep.gml</script>
     </scripts>
+    <scripts name="Polis">
+      <script>scripts\scrPoliStepMovement.gml</script>
+      <script>scripts\scrPoliStepAttack.gml</script>
+      <script>scripts\scrPoliStepChangeSprites.gml</script>
+    </scripts>
   </scripts>
   <objects name="objects">
     <objects name="puzzle1">
@@ -106,10 +109,8 @@
     <object>objects\objPlayer</object>
     <objects name="Polis">
       <object>objects\objPoli01</object>
-      <object>objects\objPoliGolpeAtaqueCol</object>
       <object>objects\objPoli02</object>
       <object>objects\objPoli03</object>
-      <object>objects\objPoliPorraAtaqueCol</object>
       <object>objects\objBullet</object>
     </objects>
     <object>objects\objBullet2</object>
@@ -126,6 +127,7 @@
       <object>objects\objStairsCollision</object>
       <object>objects\objCollisionH</object>
     </objects>
+    <object>objects\objHUD</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room1</room>

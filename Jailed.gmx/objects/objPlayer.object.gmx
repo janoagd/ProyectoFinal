@@ -126,8 +126,17 @@ if (place_meeting(x, y, objCollisionH)){
     vspeed = 0;
 }
 else{
-    vspeed = 2;
+    vspeed = 8;
 };
+
+if (place_meeting(x, y, objStairsCollision)){
+    if (y &lt; objStairsCollision){
+        vspeed = 0;
+    }
+    else {
+        vspeed = 8;
+    }
+}
 </string>
           </argument>
         </arguments>
@@ -190,31 +199,6 @@ else if(hspeed = 0 &amp;&amp; sprite_index = sprPlayerRunRight){
         </arguments>
       </action>
     </event>
-    <event eventtype="4" ename="objStairsCollision">
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>if (y &lt;= objStairsCollision.y){
-    vspeed = 0;
-}
-</string>
-          </argument>
-        </arguments>
-      </action>
-    </event>
     <event eventtype="4" ename="objBullet">
       <action>
         <libid>1</libid>
@@ -233,55 +217,7 @@ else if(hspeed = 0 &amp;&amp; sprite_index = sprPlayerRunRight){
           <argument>
             <kind>1</kind>
             <string>//Reduce health when hit
-currHealth -= objBullet.impactForce
-</string>
-          </argument>
-        </arguments>
-      </action>
-    </event>
-    <event eventtype="4" ename="objPoliPorraAtaqueCol">
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>//Reduce health when hit
-currHealth -= objPoliPorraAtaqueCol.impactForce
-</string>
-          </argument>
-        </arguments>
-      </action>
-    </event>
-    <event eventtype="4" ename="objPoliGolpeAtaqueCol">
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>//Reduce health when hit
-currHealth -= objPoliGolpeAtaqueCol.impactForce
+health -=15
 </string>
           </argument>
         </arguments>

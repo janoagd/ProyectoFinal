@@ -5,108 +5,10 @@
   <visible>-1</visible>
   <depth>0</depth>
   <persistent>0</persistent>
-  <parentName>&lt;undefined&gt;</parentName>
+  <parentName>objPoli01</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
     <event eventtype="0" enumb="0">
-      <action>
-        <libid>1</libid>
-        <id>611</id>
-        <kind>6</kind>
-        <userelative>-1</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>targetSpeedX</string>
-          </argument>
-          <argument>
-            <kind>0</kind>
-            <string>0</string>
-          </argument>
-        </arguments>
-      </action>
-      <action>
-        <libid>1</libid>
-        <id>611</id>
-        <kind>6</kind>
-        <userelative>-1</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>acceleration</string>
-          </argument>
-          <argument>
-            <kind>0</kind>
-            <string>0.25</string>
-          </argument>
-        </arguments>
-      </action>
-      <action>
-        <libid>1</libid>
-        <id>611</id>
-        <kind>6</kind>
-        <userelative>-1</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>canHit</string>
-          </argument>
-          <argument>
-            <kind>0</kind>
-            <string>true</string>
-          </argument>
-        </arguments>
-      </action>
-      <action>
-        <libid>1</libid>
-        <id>611</id>
-        <kind>6</kind>
-        <userelative>-1</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>maxSpeedX</string>
-          </argument>
-          <argument>
-            <kind>0</kind>
-            <string>0.5</string>
-          </argument>
-        </arguments>
-      </action>
-    </event>
-    <event eventtype="1" enumb="0">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -123,35 +25,10 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>//Drop ammo when killed.
-ammo = instance_create(x, y+40, objAmmo)
+            <string>///Variables
+targetSpeed = 0;
+acceleration = 0.25;
 </string>
-          </argument>
-        </arguments>
-      </action>
-    </event>
-    <event eventtype="2" enumb="0">
-      <action>
-        <libid>1</libid>
-        <id>611</id>
-        <kind>6</kind>
-        <userelative>-1</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>canHit</string>
-          </argument>
-          <argument>
-            <kind>0</kind>
-            <string>true</string>
           </argument>
         </arguments>
       </action>
@@ -159,95 +36,126 @@ ammo = instance_create(x, y+40, objAmmo)
     <event eventtype="3" enumb="0">
       <action>
         <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
+        <id>601</id>
+        <kind>0</kind>
         <userelative>0</userelative>
         <isquestion>0</isquestion>
         <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
+        <exetype>1</exetype>
+        <functionname>action_execute_script</functionname>
         <codestring></codestring>
         <whoName>self</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
         <arguments>
           <argument>
-            <kind>1</kind>
-            <string>
-
-//Sprites changes depending on the performed accion
-
-
-
-if (instance_exists(objPlayer))
-{
-    if (hspeed != 0) 
-    {
-        sprite_index = sprPoliPorraWalk;
-        image_xscale = sign(hspeed);
-    }
-    else
-    {
-        sprite_index = sprPoliPorra
-    }
-    
-    
-    //If Player is near move towards her
-    
-
-    
-        if(distance_to_object (objPlayer) &lt; 350 &amp;&amp; objPlayer.x &lt; x+sprite_width/2)
-        {
-            targetSpeedX -= maxSpeedX;
-        }
-        
-        if(distance_to_object (objPlayer) &lt; 350 &amp;&amp; objPlayer.x &gt; x-sprite_width/2)
-        {
-            targetSpeedX += maxSpeedX;
-        }
-        
-        offsetSpeed = targetSpeedX - hspeed;
-        speedInc = clamp(offsetSpeed, -acceleration, acceleration);
-        hspeed += speedInc;
-        
-        if (instance_exists(objPlayer))
-        {    
-            if (distance_to_object(objPlayer)&lt;2 &amp;&amp; canHit == true &amp;&amp; sprite_index != sprPoliPorraAtaque)
-            {    
-                // start the standing punch animation
-                sprite_index = sprPoliPorraAtaque;
-                image_index = 0;
-                
-                // create the collision object
-                AtaqueColObj = instance_create(x, y, objPoliPorraAtaqueCol);
-                with (AtaqueColObj)
-                {
-                    image_xscale = other.image_xscale;
-                }
-                canHit = false
-                alarm[0] = 30;
-                
-            }
-        }  
-}
-else
-{
-    hspeed=0
-    sprite_index = sprPoliGolpe
-}
-
-
-
-
-
-    
-    
-</string>
+            <kind>9</kind>
+            <script>scrPoliStepMovement</script>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string>sprPoliPorraWalk</string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string>sprPoliPorra</string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string></string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string></string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string></string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>601</id>
+        <kind>0</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_execute_script</functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>9</kind>
+            <script>scrPoliStepAttack</script>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string>sprPoliPorraWalk</string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string>sprPoliPorraAtaque</string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string></string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string></string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string></string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>601</id>
+        <kind>0</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_execute_script</functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>9</kind>
+            <script>scrPoliStepChangeSprites</script>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string>sprPoliPorraWalk</string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string></string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string></string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string></string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string></string>
           </argument>
         </arguments>
       </action>
     </event>
-    <event eventtype="4" ename="objPlayer">
+    <event eventtype="7" enumb="7">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -264,32 +172,10 @@ else
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>// grab the speed as we have it before colliding
-oldSpeed = hspeed;
-
-// check if we're going left or right
-speedSign = sign(oldSpeed);
-absSpeed = abs(oldSpeed);
-
-// iterate over all the points until the next one
-foundPlace = false;
-xCollide = x;
-for (i = 0; i &lt; absSpeed &amp;&amp; !foundPlace; ++i)
-{
-    if (place_free(xCollide + speedSign, y))
-    {
-        xCollide += speedSign;
-    }
-    else
-    {
-        foundPlace = true;
-    }
+            <string>///Reduce Live
+if (sprite_index = sprPoliPorraAtaque){
+    health -= 10;
 }
-
-// update the speed to be the distance to the collision point
-hspeed = xCollide - x;
-
-
 </string>
           </argument>
         </arguments>
